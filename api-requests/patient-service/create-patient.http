@@ -1,0 +1,13 @@
+### Create new patient
+POST http://localhost:4004/api/patients
+Content-Type: Application/json
+
+{
+  "name": "kafka-analyticswithgwdd",
+  "email": "analyticsjjgw@mikne.com",
+  "address": "Kigali",
+  "dateOfBirth": "1983-12-01",
+  "registeredDate": "2090-12-01"
+}
+
+###

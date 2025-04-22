@@ -1,0 +1,12 @@
+### Update patient
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174002
+Content-Type: Application/json
+
+{
+  "name": "Alice Johnson Updated",
+  "email": "alice.johnson@example.com",
+  "address": "Kigali",
+  "dateOfBirth": "1983-12-01"
+}
+
+###
